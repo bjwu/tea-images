@@ -1,0 +1,1404 @@
+{
+  "teaCategories": [
+    {
+      "id": "green",
+      "name": "绿茶",
+      "icon": "/images/icon/绿茶.png",
+      "color": "#1B5E20",
+      "bgColor": "#A5D6A7",
+      "description": "不发酵茶，清汤绿叶，鲜爽回甘",
+      "feature": "不发酵",
+      "fermentation": "0%",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/category/绿茶.jpg"
+    },
+    {
+      "id": "white",
+      "name": "白茶",
+      "icon": "/images/icon/白茶.png",
+      "color": "#37474F",
+      "bgColor": "#B0BEC5",
+      "description": "微发酵茶，毫香蜜韵，清淡素雅",
+      "feature": "微发酵",
+      "fermentation": "5-10%",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/category/白茶.jpg"
+    },
+    {
+      "id": "yellow",
+      "name": "黄茶",
+      "icon": "/images/icon/黄茶.png",
+      "color": "#F57F17",
+      "bgColor": "#FFE082",
+      "description": "轻发酵茶，黄叶黄汤，甘香醇厚",
+      "feature": "轻发酵",
+      "fermentation": "10-20%",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/category/黄茶.jpg"
+    },
+    {
+      "id": "oolong",
+      "name": "青茶",
+      "icon": "/images/icon/青茶.png",
+      "color": "#BF360C",
+      "bgColor": "#FFCC80",
+      "description": "半发酵茶，既有绿茶清香又有红茶醇厚",
+      "feature": "半发酵",
+      "fermentation": "30-60%",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/category/青茶.jpg"
+    },
+    {
+      "id": "black",
+      "name": "红茶",
+      "icon": "/images/icon/红茶.png",
+      "color": "#880E0E",
+      "bgColor": "#EF9A9A",
+      "description": "全发酵茶，红汤红叶，香甜醇厚",
+      "feature": "全发酵",
+      "fermentation": "80-90%",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/category/红茶.jpg"
+    },
+    {
+      "id": "dark",
+      "name": "黑茶",
+      "icon": "/images/icon/黑茶.png",
+      "color": "#2C1A15",
+      "bgColor": "#BCAAA4",
+      "description": "后发酵茶，陈香浓郁，越陈越香",
+      "feature": "后发酵",
+      "fermentation": "100%",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/category/黑茶.jpg"
+    }
+  ],
+  "teaList": [
+    {
+      "id": "longjing",
+      "name": "西湖龙井",
+      "category": "green",
+      "categoryName": "绿茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/xihulongjing.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/xihulongjing.jpg",
+      "origin": "浙江省杭州市西湖区",
+      "brief": "中国十大名茶之首，以\"色绿、香郁、味甘、形美\"四绝著称",
+      "description": "西湖龙井是中国十大名茶之首，产于浙江省杭州市西湖龙井村周围群山。具有1200多年历史，清代被列为贡茶。龙井茶以\"色绿、香郁、味甘、形美\"四绝著称于世，素有\"绿茶皇后\"之称。",
+      "history": "唐代陆羽《茶经》中已有记载。宋代开始列为贡品，清乾隆游览杭州西湖时，盛赞龙井茶，并将胡公庙前十八棵茶树封为\"御茶\"。",
+      "brewing": {
+        "temperature": "80-85°C",
+        "amount": "3-5克/杯",
+        "time": "第一泡 1-2分钟",
+        "water": "建议使用纯净水或矿泉水",
+        "method": "先温杯，投茶后注入少许水润茶，再注满水。推荐使用玻璃杯冲泡，可观赏茶叶在水中舒展。"
+      },
+      "taste": "鲜爽甘醇，香气清高持久，带有豆花香",
+      "benefits": [
+        "提神醒脑",
+        "抗氧化",
+        "降血脂",
+        "防辐射",
+        "美容养颜"
+      ],
+      "season": "春茶最佳（明前茶、雨前茶）",
+      "storage": "密封、避光、低温保存，建议冷藏",
+      "isHot": true,
+      "tags": [
+        "十大名茶",
+        "贡茶",
+        "明前茶"
+      ]
+    },
+    {
+      "id": "biluochun",
+      "name": "碧螺春",
+      "category": "green",
+      "categoryName": "绿茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/biluochun.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/biluochun.jpg",
+      "origin": "江苏省苏州市太湖洞庭山",
+      "brief": "条索纤细卷曲如螺，花果香浓郁",
+      "description": "碧螺春是中国传统名茶，属于绿茶类，已有1000多年历史。产于江苏省苏州市吴县太湖的东洞庭山及西洞庭山一带，所以又称\"洞庭碧螺春\"。",
+      "history": "碧螺春早在清代就被列为贡品。康熙帝南巡品饮后赐名\"碧螺春\"。当地民间最早叫洞庭茶，又叫吓煞人香。",
+      "brewing": {
+        "temperature": "75-80°C",
+        "amount": "3-4克/杯",
+        "time": "第一泡 1分钟",
+        "water": "建议使用纯净水",
+        "method": "先注水至七分满，再投茶（上投法），可观赏茶叶慢慢沉入杯底的过程。"
+      },
+      "taste": "清香文雅，鲜爽生津，回味甘甜，带有花果香",
+      "benefits": [
+        "利尿解毒",
+        "抗菌消炎",
+        "减肥瘦身",
+        "防龋齿"
+      ],
+      "season": "春茶最佳",
+      "storage": "密封、避光、低温保存",
+      "isHot": true,
+      "tags": [
+        "十大名茶",
+        "贡茶",
+        "洞庭"
+      ]
+    },
+    {
+      "id": "huangshan_maofeng",
+      "name": "黄山毛峰",
+      "category": "green",
+      "categoryName": "绿茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/huangshanmaofeng.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/huangshanmaofeng.jpg",
+      "origin": "安徽省黄山市",
+      "brief": "形如雀舌，白毫显露，清香持久",
+      "description": "黄山毛峰是中国十大名茶之一，属于绿茶。产于安徽省黄山（徽州）一带，又称徽茶。由清代光绪年间谢裕大茶庄所创制。",
+      "history": "创制于清代光绪年间，由谢裕大茶庄发明。黄山产茶历史悠久，在明清时期已经很有名气。",
+      "brewing": {
+        "temperature": "80-85°C",
+        "amount": "3-5克/杯",
+        "time": "第一泡 1-2分钟",
+        "water": "纯净水或山泉水",
+        "method": "中投法，先注1/3水，投茶，再加满。推荐使用玻璃杯。"
+      },
+      "taste": "清香高长，鲜爽回甘，有兰花香",
+      "benefits": [
+        "延缓衰老",
+        "抑制心血管疾病",
+        "防癌抗癌",
+        "提神醒脑"
+      ],
+      "season": "清明至谷雨间采摘最佳",
+      "storage": "密封、避光、干燥保存",
+      "isHot": true,
+      "tags": [
+        "十大名茶",
+        "徽茶",
+        "黄山"
+      ]
+    },
+    {
+      "id": "taiping_houkui",
+      "name": "太平猴魁",
+      "category": "green",
+      "categoryName": "绿茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/taipinghoukui.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/taipinghoukui.jpg",
+      "origin": "安徽省黄山市黄山区",
+      "brief": "两叶抱芽，扁平挺直，魁伟壮实",
+      "description": "太平猴魁是中国传统名茶，属于绿茶尖茶类。产于安徽省黄山市北麓的黄山区（原太平县）新明一带。其外形两叶抱芽，扁平挺直，自然舒展，白毫隐伏，有\"猴魁两头尖，不散不翘不卷边\"之称。",
+      "history": "太平猴魁创制于1900年，1915年在巴拿马万国博览会上荣获金质奖章。",
+      "brewing": {
+        "temperature": "85-90°C",
+        "amount": "5-8克",
+        "time": "第一泡 2-3分钟",
+        "water": "纯净水",
+        "method": "因茶叶较大，建议使用高直玻璃杯或盖碗，根部朝下放入杯中，先注少量水润茶，再注满。"
+      },
+      "taste": "鲜爽醇厚，回味甘甜，有兰花香",
+      "benefits": [
+        "提神益思",
+        "降压减脂",
+        "抗菌消炎"
+      ],
+      "season": "谷雨前后采摘",
+      "storage": "密封、避光、低温保存",
+      "isHot": false,
+      "tags": [
+        "尖茶",
+        "安徽名茶",
+        "金奖"
+      ]
+    },
+    {
+      "id": "xinyang_maojian",
+      "name": "信阳毛尖",
+      "category": "green",
+      "categoryName": "绿茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/xinyangmaojian.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/xinyangmaojian.jpg",
+      "origin": "河南省信阳市",
+      "brief": "细圆紧直，白毫满披，汤色嫩绿明亮",
+      "description": "信阳毛尖又称豫毛峰，属绿茶类。是中国十大名茶之一，河南省著名特产之一。信阳毛尖的色、香、味、形均有独特个性，其颜色鲜润、干净，不含杂质，香气高雅、清新，味道鲜爽、醇香、回甘。",
+      "history": "信阳种茶历史已有二千多年。唐代茶圣陆羽《茶经》记载信阳为产茶重镇。",
+      "brewing": {
+        "temperature": "75-85°C",
+        "amount": "3-5克/杯",
+        "time": "第一泡 1-2分钟",
+        "water": "纯净水或山泉水",
+        "method": "先温杯，投茶后先注少量水润茶，再注满。可用玻璃杯或白瓷盖碗。"
+      },
+      "taste": "鲜浓甘爽，香高持久，熟板栗香",
+      "benefits": [
+        "消炎杀菌",
+        "降血压",
+        "提神醒脑",
+        "助消化"
+      ],
+      "season": "春茶品质最优",
+      "storage": "密封、干燥、低温保存",
+      "isHot": false,
+      "tags": [
+        "十大名茶",
+        "豫毛峰"
+      ]
+    },
+    {
+      "id": "anji_baicha",
+      "name": "安吉白茶",
+      "category": "green",
+      "categoryName": "绿茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/anjibaicha.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/anjibaicha.jpg",
+      "origin": "浙江省湖州市安吉县",
+      "brief": "虽名白茶，实为绿茶，氨基酸含量极高",
+      "description": "安吉白茶虽然名为\"白茶\"，但其实属于绿茶类。因其加工原料采自一种嫩叶全为白色的茶树而得名。安吉白茶氨基酸含量高达6-8%，是普通绿茶的2-3倍。",
+      "history": "安吉白茶的历史可追溯到宋代，但真正开发利用是在1980年代。1982年发现安吉白茶单株，后经培育推广。",
+      "brewing": {
+        "temperature": "75-80°C",
+        "amount": "3-4克/杯",
+        "time": "第一泡 1分钟",
+        "water": "纯净水",
+        "method": "玻璃杯冲泡，先温杯，中投法。水温不宜过高，以免影响鲜爽度。"
+      },
+      "taste": "鲜醇甘爽，清香高扬，回味悠长",
+      "benefits": [
+        "降血压",
+        "抗氧化",
+        "保护心血管",
+        "增强免疫力"
+      ],
+      "season": "清明前采摘最佳",
+      "storage": "密封、避光、冷藏保存",
+      "isHot": true,
+      "tags": [
+        "氨基酸含量高",
+        "浙江名茶"
+      ]
+    },
+    {
+      "id": "luan_guapian",
+      "name": "六安瓜片",
+      "category": "green",
+      "categoryName": "绿茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/luanguapian.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/luanguapian.jpg",
+      "origin": "安徽省六安市",
+      "brief": "唯一无芽无梗的茶叶，形似瓜子壳",
+      "description": "六安瓜片为绿茶特种茶类，是中国十大名茶之一。采自当地特有品种，经扳片、剔去嫩芽及茶梗，是世界上唯一无芽无梗的茶叶。因制成茶叶冲泡后呈瓜子片状，故取\"六安瓜片\"之名。",
+      "history": "早在唐代就已是贡品，明清时期极为兴盛。",
+      "brewing": {
+        "temperature": "80°C",
+        "amount": "3-5克",
+        "time": "第一泡 2分钟",
+        "water": "纯净水",
+        "method": "先温杯，采用两次冲泡法，第一泡润茶，第二泡正泡。"
+      },
+      "taste": "清香高爽，滋味鲜醇回甘，叶底厚实",
+      "benefits": [
+        "降血脂",
+        "抗衰老",
+        "清热解毒"
+      ],
+      "season": "谷雨前后",
+      "storage": "低温密封保存",
+      "isHot": false,
+      "tags": [
+        "十大名茶",
+        "无芽无梗",
+        "贡茶"
+      ]
+    },
+    {
+      "id": "duyun_maojian",
+      "name": "都匀毛尖",
+      "category": "green",
+      "categoryName": "绿茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/duyunmaojian.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/duyunmaojian.jpg",
+      "origin": "贵州省黔南布依族苗族自治州都匀市",
+      "brief": "中国十大名茶之一，外形卷曲似螺，白毫特多",
+      "description": "都匀毛尖又称\"白毛尖\"、\"细毛尖\"、\"鱼钩茶\"，是贵州三大名茶之一，中国十大名茶之一。产于贵州都匀市，以\"三绿透三黄\"（干茶绿中带黄、汤色绿中透黄、叶底绿中显黄）的特色著称。",
+      "history": "都匀毛尖在明代即为贡品。1956年由毛泽东亲自命名为\"毛尖茶\"。1982年被评为中国十大名茶之一。",
+      "brewing": {
+        "temperature": "80°C",
+        "amount": "3-4克/杯",
+        "time": "第一泡 1-2分钟",
+        "water": "纯净水",
+        "method": "玻璃杯冲泡，先温杯，采用中投法。水温不宜过高。"
+      },
+      "taste": "鲜浓回甘，嫩栗香高，汤色黄绿明亮",
+      "benefits": [
+        "降血压",
+        "降血脂",
+        "抗衰老",
+        "助消化"
+      ],
+      "season": "清明前后采摘最佳",
+      "storage": "密封、避光、低温保存",
+      "isHot": false,
+      "tags": [
+        "十大名茶",
+        "贵州名茶",
+        "贡茶"
+      ]
+    },
+    {
+      "id": "enshi_yulu",
+      "name": "恩施玉露",
+      "category": "green",
+      "categoryName": "绿茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/enshiyulu.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/enshiyulu.jpg",
+      "origin": "湖北省恩施土家族苗族自治州",
+      "brief": "中国仅存的蒸青绿茶，富含硒元素",
+      "description": "恩施玉露是中国保留下来为数不多的蒸青绿茶之一，其制作工艺源自唐代。产于湖北恩施，因恩施地区富硒，茶叶天然含硒量高，被称为\"富硒茶\"。外形紧圆光滑，色泽苍翠绿润，汤色嫩绿明亮。",
+      "history": "恩施玉露创制于清康熙年间，当时称\"玉绿\"。到了1936年改名为\"玉露\"。其蒸青工艺传承自唐代陆羽记载的蒸青制法。",
+      "brewing": {
+        "temperature": "75-80°C",
+        "amount": "3克/杯",
+        "time": "第一泡 1-2分钟",
+        "water": "纯净水",
+        "method": "玻璃杯冲泡，上投法或中投法。水温宜低，保持鲜爽。"
+      },
+      "taste": "鲜爽甘醇，清香持久，海苔香独特",
+      "benefits": [
+        "富含硒元素",
+        "抗氧化",
+        "增强免疫力",
+        "防辐射"
+      ],
+      "season": "清明前后采摘",
+      "storage": "密封、避光、冷藏保存",
+      "isHot": false,
+      "tags": [
+        "蒸青绿茶",
+        "富硒",
+        "湖北名茶"
+      ]
+    },
+    {
+      "id": "mengding_ganlu",
+      "name": "蒙顶甘露",
+      "category": "green",
+      "categoryName": "绿茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/mengdingganlu.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/mengdingganlu.jpg",
+      "origin": "四川省雅安市名山区蒙顶山",
+      "brief": "中国最古老的名茶之一，\"仙茶\"之称",
+      "description": "蒙顶甘露产于四川省雅安市名山区的蒙顶山，是中国最古老的名茶之一。蒙顶山是世界茶文化发源地，\"扬子江中水，蒙山顶上茶\"的美誉流传千年。甘露茶形紧卷多毫，色泽翠绿，汤色碧清微黄。",
+      "history": "蒙顶茶始于西汉甘露年间（公元前53年），植茶始祖吴理真在蒙顶山种下七株茶树。从唐代起即为贡茶，连续贡茶千余年。",
+      "brewing": {
+        "temperature": "80°C",
+        "amount": "3-4克/杯",
+        "time": "第一泡 1-2分钟",
+        "water": "纯净水或山泉水",
+        "method": "玻璃杯或盖碗冲泡，中投法。水温不宜过高。"
+      },
+      "taste": "鲜嫩甘醇，内质香高而爽，回味甘甜",
+      "benefits": [
+        "提神醒脑",
+        "消暑解渴",
+        "降血脂",
+        "抗氧化"
+      ],
+      "season": "春分至清明采摘最佳",
+      "storage": "密封、避光、低温保存",
+      "isHot": false,
+      "tags": [
+        "千年贡茶",
+        "仙茶",
+        "四川名茶"
+      ]
+    },
+    {
+      "id": "baihaoyinzhen",
+      "name": "白毫银针",
+      "category": "white",
+      "categoryName": "白茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/baihaoyinzhen.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/baihaoyinzhen.jpg",
+      "origin": "福建省福鼎市、政和县",
+      "brief": "白茶之王，满披白毫，如银似雪",
+      "description": "白毫银针是白茶中的极品，素有\"茶中美女\"、\"茶王\"之美称。其外形优美，芽头壮实，满披白毫，如银似雪而得名。白毫银针创制于清嘉庆初年（1796年），是白茶中等级最高的品种。",
+      "history": "白毫银针始于1796年（清嘉庆初年）福鼎茶农用菜茶薄片的壮芽为原料创制。现行的白毫银针以福鼎大白茶或政和大白茶良种茶树为原料。",
+      "brewing": {
+        "temperature": "85-90°C",
+        "amount": "3-5克",
+        "time": "第一泡 2-3分钟",
+        "water": "纯净水或山泉水",
+        "method": "推荐使用白瓷盖碗冲泡，先润茶，再注水，可连续冲泡5-7次。存放年份久（3年以上）的银针可用紫砂壶冲泡。"
+      },
+      "taste": "清鲜醇爽，毫香蜜韵，甘甜爽口",
+      "benefits": [
+        "退热解暑",
+        "抗氧化",
+        "保护心血管",
+        "降三高",
+        "延缓衰老"
+      ],
+      "season": "清明前后采摘",
+      "storage": "密封、避光、常温保存，可长期存放，越陈越好",
+      "isHot": true,
+      "tags": [
+        "白茶之王",
+        "福鼎",
+        "越陈越好"
+      ]
+    },
+    {
+      "id": "baimudan",
+      "name": "白牡丹",
+      "category": "white",
+      "categoryName": "白茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/baimudan.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/baimudan.jpg",
+      "origin": "福建省福鼎市、政和县",
+      "brief": "一芽两叶，绿叶夹银白芽心，似花朵绽放",
+      "description": "白牡丹是白茶中的上品，以一芽一二叶为原料，经萎凋、干燥等工艺制成。因绿叶夹银白色毫心，形似花朵，冲泡后绿叶托着嫩芽，宛如蓓蕾初放，故得\"白牡丹\"之美名。",
+      "history": "白牡丹在1922年创制于福建政和。品味俱佳，在白茶中排名第二。",
+      "brewing": {
+        "temperature": "85-90°C",
+        "amount": "4-5克",
+        "time": "第一泡 2分钟",
+        "water": "纯净水",
+        "method": "盖碗冲泡，先快速润茶一遍，再正式冲泡。新茶水温略低，陈茶可适当提高水温。"
+      },
+      "taste": "醇厚清甜，毫香显著，花香四溢",
+      "benefits": [
+        "明目",
+        "解毒",
+        "退热",
+        "抗氧化"
+      ],
+      "season": "春茶品质最佳",
+      "storage": "密封避光，可长期保存",
+      "isHot": false,
+      "tags": [
+        "白茶精品",
+        "花香",
+        "福鼎"
+      ]
+    },
+    {
+      "id": "shoumei",
+      "name": "寿眉",
+      "category": "white",
+      "categoryName": "白茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/shoumei.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/shoumei.jpg",
+      "origin": "福建省福鼎市、政和县",
+      "brief": "产量最大的白茶品种，性价比极高",
+      "description": "寿眉是白茶中产量最高的品种，以一芽三四叶为原料。叶片较大，茶梗较长，但经过良好存放后，口感会变得更加醇厚饱满。是白茶入门的最佳选择。",
+      "history": "寿眉的制作传承了白茶最传统的做法，有着悠久的历史。是福建建阳茶农的\"看家\"品种。",
+      "brewing": {
+        "temperature": "90-100°C",
+        "amount": "5-8克",
+        "time": "第一泡 3分钟",
+        "water": "沸水",
+        "method": "盖碗或紫砂壶均可。陈年寿眉推荐煮饮，风味更佳。"
+      },
+      "taste": "甜醇厚实，药香枣香，层次丰富",
+      "benefits": [
+        "降火消炎",
+        "养颜美容",
+        "调节免疫"
+      ],
+      "season": "春秋两季均可采摘",
+      "storage": "密封常温存放，越陈越佳",
+      "isHot": false,
+      "tags": [
+        "性价比高",
+        "煮饮佳品",
+        "入门推荐"
+      ]
+    },
+    {
+      "id": "gongmei",
+      "name": "贡眉",
+      "category": "white",
+      "categoryName": "白茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/gongmei.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/gongmei.jpg",
+      "origin": "福建省南平市建阳区",
+      "brief": "白茶中的上品，介于白牡丹和寿眉之间",
+      "description": "贡眉又称为寿眉中的上品，以菜茶（群体种）茶树的一芽二三叶为原料制成。贡眉品质介于白牡丹和寿眉之间，毫心明显，色泽灰绿或翠绿，叶态均匀。适合长期存放，越陈越醇。",
+      "history": "贡眉之名源于清代，据说是因为其品质上佳，被作为贡品而得名。建阳是白茶的发源地之一。",
+      "brewing": {
+        "temperature": "90-95°C",
+        "amount": "5克",
+        "time": "第一泡 2-3分钟",
+        "water": "纯净水",
+        "method": "盖碗或紫砂壶冲泡。陈年贡眉可以煮饮，风味独特。"
+      },
+      "taste": "醇厚甘甜，花香与药香交织，汤色杏黄",
+      "benefits": [
+        "清热退火",
+        "抗氧化",
+        "调节免疫",
+        "养颜美容"
+      ],
+      "season": "春秋两季采摘",
+      "storage": "密封常温存放，越陈越好",
+      "isHot": false,
+      "tags": [
+        "白茶上品",
+        "越陈越好",
+        "建阳"
+      ]
+    },
+    {
+      "id": "junshan_yinzhen",
+      "name": "君山银针",
+      "category": "yellow",
+      "categoryName": "黄茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/junshanyinzhen.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/junshanyinzhen.jpg",
+      "origin": "湖南省岳阳市洞庭湖中君山岛",
+      "brief": "黄茶极品，三起三落的冲泡奇观",
+      "description": "君山银针是中国名茶之一，产于湖南岳阳洞庭湖中的君山，形细如针，故名\"君山银针\"。其成品茶芽头茁壮，长短大小均匀，茶芽内面呈金黄色，外层白毫显露完整，且包裹坚实。",
+      "history": "君山银针始于唐代，清朝时被列为贡茶。文成公主入藏时就选带了君山银针。",
+      "brewing": {
+        "temperature": "75-80°C",
+        "amount": "3克/杯",
+        "time": "第一泡 3分钟",
+        "water": "纯净水",
+        "method": "使用透明玻璃杯冲泡，可以欣赏到茶芽\"三起三落\"的奇观。先温杯，投茶后缓缓注入70度左右的水。"
+      },
+      "taste": "甜醇鲜爽，杏黄明亮，回味悠长",
+      "benefits": [
+        "助消化",
+        "提神",
+        "抗疲劳",
+        "防辐射"
+      ],
+      "season": "清明前后7-10天采摘",
+      "storage": "密封、避光、低温保存",
+      "isHot": true,
+      "tags": [
+        "十大名茶",
+        "贡茶",
+        "三起三落"
+      ]
+    },
+    {
+      "id": "huoshan_huangya",
+      "name": "霍山黄芽",
+      "category": "yellow",
+      "categoryName": "黄茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/huoshanhuangya.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/huoshanhuangya.jpg",
+      "origin": "安徽省六安市霍山县",
+      "brief": "唐代贡茶，形似雀舌，嫩黄油润",
+      "description": "霍山黄芽为安徽省霍山县特产，属于黄茶类。唐代起就被列为贡品，一直到清代都有进贡。茶叶形似雀舌，嫩绿披毫，香气持久，滋味鲜醇浓厚回甘。",
+      "history": "自唐代起即为贡茶,明代被列为极品名茶。历史上曾一度失传，后在1970年代恢复生产。",
+      "brewing": {
+        "temperature": "80-85°C",
+        "amount": "3-4克",
+        "time": "第一泡 1-2分钟",
+        "water": "纯净水",
+        "method": "玻璃杯或盖碗冲泡，先投茶再注水。"
+      },
+      "taste": "鲜醇甘爽，栗香持久",
+      "benefits": [
+        "降脂减肥",
+        "护齿",
+        "助消化"
+      ],
+      "season": "谷雨前后采摘",
+      "storage": "密封、低温保存",
+      "isHot": false,
+      "tags": [
+        "唐代贡茶",
+        "安徽名茶"
+      ]
+    },
+    {
+      "id": "mengding_huangya",
+      "name": "蒙顶黄芽",
+      "category": "yellow",
+      "categoryName": "黄茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/mengdinghuangya.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/mengdinghuangya.jpg",
+      "origin": "四川省雅安市名山区蒙顶山",
+      "brief": "黄茶珍品，黄芽黄汤，甜香浓郁",
+      "description": "蒙顶黄芽产于四川省雅安市名山区蒙顶山，是黄茶中的珍品。以单芽或一芽一叶初展为原料，经过杀青、初包、复炒、复包、三炒、堆积等特殊工艺制成。外形扁直秀丽，芽条匀整，色泽嫩黄。",
+      "history": "蒙顶黄芽自唐代起即为贡茶。白居易有诗云\"琴里知闻唯渌水，茶中故旧是蒙山\"。历代文人墨客多有赞颂。",
+      "brewing": {
+        "temperature": "75-80°C",
+        "amount": "3克/杯",
+        "time": "第一泡 2-3分钟",
+        "water": "纯净水",
+        "method": "透明玻璃杯冲泡，可欣赏茶芽在水中竖立的美态。先温杯，中投法。"
+      },
+      "taste": "甜香浓郁，甘醇鲜爽，汤色杏黄明亮",
+      "benefits": [
+        "健胃消食",
+        "提神益思",
+        "防辐射",
+        "延缓衰老"
+      ],
+      "season": "春分至清明采摘",
+      "storage": "密封、避光、低温保存",
+      "isHot": false,
+      "tags": [
+        "黄茶珍品",
+        "千年贡茶",
+        "蒙顶山"
+      ]
+    },
+    {
+      "id": "tieguanyin",
+      "name": "铁观音",
+      "category": "oolong",
+      "categoryName": "青茶（乌龙茶）",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/tieguanyin.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/tieguanyin.jpg",
+      "origin": "福建省泉州市安溪县",
+      "brief": "中国十大名茶之一，独具\"观音韵\"，兰花香馥郁",
+      "description": "铁观音是中国传统名茶，属于青茶类，是中国十大名茶之一。原产于福建泉州市安溪县西坪镇。铁观音独具\"观音韵\"，清香雅韵，冲泡后有天然的兰花香，滋味纯浓，香气馥郁持久，有\"七泡有余香\"之誉。",
+      "history": "铁观音发现于1723-1735年（清雍正年间），至今已有近三百年历史。关于铁观音的来历有\"魏说\"和\"王说\"两种传说。",
+      "brewing": {
+        "temperature": "95-100°C",
+        "amount": "7-8克",
+        "time": "第一泡 30秒，逐泡增加",
+        "water": "矿泉水或纯净水",
+        "method": "推荐使用紫砂壶或白瓷盖碗。先用沸水温壶洗杯，投茶后注入沸水，快速洗茶一遍，再正式冲泡。每泡出汤时间逐渐增加。可连泡7次以上。"
+      },
+      "taste": "醇厚甘鲜，兰花香馥郁，回甘持久，\"观音韵\"独特",
+      "benefits": [
+        "减肥瘦身",
+        "抗衰老",
+        "防癌抗癌",
+        "降血脂",
+        "清热降火"
+      ],
+      "season": "春茶和秋茶品质最佳（春水秋香）",
+      "storage": "清香型需冷藏，浓香型常温密封保存",
+      "isHot": true,
+      "tags": [
+        "十大名茶",
+        "观音韵",
+        "七泡有余香"
+      ]
+    },
+    {
+      "id": "dahongpao",
+      "name": "大红袍",
+      "category": "oolong",
+      "categoryName": "青茶（乌龙茶）",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/dahongpao.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/dahongpao.jpg",
+      "origin": "福建省南平市武夷山",
+      "brief": "岩茶之王，岩骨花香，\"茶中状元\"",
+      "description": "大红袍是武夷岩茶中品质最优异者，是中国十大名茶之一。产于福建省武夷山天心岩九龙窠的悬崖峭壁之上。武夷大红袍，是中国茗苑中的奇葩，素有\"茶中状元\"之美誉。",
+      "history": "大红袍的历史传说丰富。相传1385年，举子丁显赶考路上腹病，天心寺和尚取其所藏茶叶泡与他喝，病痛即止。考中状元后回来感恩，将红袍披在茶树上，遂得\"大红袍\"之名。",
+      "brewing": {
+        "temperature": "95-100°C",
+        "amount": "8克",
+        "time": "第一泡 15-20秒",
+        "water": "矿泉水",
+        "method": "紫砂壶或盖碗冲泡。先用沸水温器，投茶后快速洗茶，第一泡15-20秒出汤，后逐泡增加5-10秒。注重\"高冲低斟\"。"
+      },
+      "taste": "岩骨花香，醇厚甘润，岩韵显著，层次丰富",
+      "benefits": [
+        "明目益思",
+        "减肥",
+        "抗衰老",
+        "降血脂"
+      ],
+      "season": "春茶品质最优",
+      "storage": "密封常温保存，避免异味",
+      "isHot": true,
+      "tags": [
+        "十大名茶",
+        "岩茶",
+        "茶中状元"
+      ]
+    },
+    {
+      "id": "fenghuang_dancong",
+      "name": "凤凰单丛",
+      "category": "oolong",
+      "categoryName": "青茶（乌龙茶）",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/fenghuangdancong.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/fenghuangdancong.jpg",
+      "origin": "广东省潮州市凤凰山",
+      "brief": "一树一香，花香蜜韵，品种繁多",
+      "description": "凤凰单丛茶产于广东省潮州市凤凰山，属于乌龙茶类。因为每棵茶树的口感、香气各有不同，所以称为\"单丛\"。凤凰单丛以\"花香\"著称，有黄枝香、芝兰香、桂花香、蜜兰香等十大香型。",
+      "history": "凤凰单丛茶始于南宋，有900多年历史。凤凰山上现存树龄200年以上的古茶树有3700多株。",
+      "brewing": {
+        "temperature": "95-100°C",
+        "amount": "7-8克",
+        "time": "第一泡 10-15秒",
+        "water": "矿泉水",
+        "method": "盖碗功夫泡法。关键在于快速出汤，避免苦涩。洗茶一遍后，前几泡快速出汤（10秒内），后逐渐延长。"
+      },
+      "taste": "花香蜜韵，山韵独特，层次分明，甘醇爽口",
+      "benefits": [
+        "提神益思",
+        "消食去腻",
+        "减肥美容"
+      ],
+      "season": "春茶品质最佳",
+      "storage": "密封、避光、常温保存",
+      "isHot": false,
+      "tags": [
+        "花香",
+        "潮州名茶",
+        "单株采制"
+      ]
+    },
+    {
+      "id": "dongding_oolong",
+      "name": "冻顶乌龙",
+      "category": "oolong",
+      "categoryName": "青茶（乌龙茶）",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/dongdingoolong.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/dongdingoolong.jpg",
+      "origin": "台湾省南投县鹿谷乡",
+      "brief": "台湾茶的代表，焙火工艺独特",
+      "description": "冻顶乌龙茶是台湾最知名的茶叶之一，产于南投县鹿谷乡冻顶山一带。属于半发酵茶，其特色是经过布球揉捻和多次焙火，茶叶呈半球形，色泽墨绿带油光。",
+      "history": "相传清朝咸丰年间，鹿谷乡人林凤池从福建武夷山引进茶苗种植于冻顶山上，从此开始发展。",
+      "brewing": {
+        "temperature": "90-95°C",
+        "amount": "5-7克",
+        "time": "第一泡 30-45秒",
+        "water": "纯净水",
+        "method": "紫砂壶或盖碗。温壶后投茶，注入热水，洗茶一遍，正泡30-45秒。可冲泡6-8次。"
+      },
+      "taste": "醇厚甘润，焙火香浓郁，花果香显，喉韵悠长",
+      "benefits": [
+        "提神醒脑",
+        "消除疲劳",
+        "助消化"
+      ],
+      "season": "春冬两季品质较佳",
+      "storage": "密封、避光保存",
+      "isHot": false,
+      "tags": [
+        "台湾名茶",
+        "焙火",
+        "半球形"
+      ]
+    },
+    {
+      "id": "wuyi_rougui",
+      "name": "武夷肉桂",
+      "category": "oolong",
+      "categoryName": "青茶（乌龙茶）",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/wuyirougui.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/wuyirougui.jpg",
+      "origin": "福建省南平市武夷山",
+      "brief": "武夷岩茶当家品种，桂皮香辛锐霸气",
+      "description": "武夷肉桂是武夷岩茶中的当家品种之一，因其香气似桂皮香而得名。肉桂茶条索紧实，色泽乌润砂绿，汤色橙黄清澈。其最大的特点是香气辛锐持久，有\"香不过肉桂\"之说。岩韵明显，是武夷岩茶的代表品种。",
+      "history": "肉桂原产于武夷山慧苑岩，在清代已负盛名。20世纪80年代以来，因品质优异而大面积推广种植，现已成为武夷山栽培面积最大的品种。",
+      "brewing": {
+        "temperature": "95-100°C",
+        "amount": "8克",
+        "time": "第一泡 15-20秒",
+        "water": "矿泉水",
+        "method": "盖碗或紫砂壶冲泡。沸水冲泡，快速洗茶一遍。前几泡快出汤，后逐渐延长。注重高冲激发香气。"
+      },
+      "taste": "桂皮香辛锐持久，滋味醇厚甘润，岩韵显著",
+      "benefits": [
+        "暖胃散寒",
+        "提神醒脑",
+        "降血脂",
+        "抗氧化"
+      ],
+      "season": "春茶品质最优",
+      "storage": "密封常温保存，避免异味",
+      "isHot": true,
+      "tags": [
+        "岩茶",
+        "桂皮香",
+        "香不过肉桂"
+      ]
+    },
+    {
+      "id": "dongfang_meiren",
+      "name": "东方美人",
+      "category": "oolong",
+      "categoryName": "青茶（乌龙茶）",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/dongfangmeiren.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/dongfangmeiren.jpg",
+      "origin": "台湾省新竹县、苗栗县",
+      "brief": "被小绿叶蝉叮咬后产生独特蜜香的奇茶",
+      "description": "东方美人又称\"膨风茶\"、\"白毫乌龙\"，是台湾独有的名茶。其最大特色是必须经小绿叶蝉（茶小绿叶蝉）叮咬后，茶叶自然产生特殊的蜜香和果香。发酵程度为60-70%，是乌龙茶中发酵最重的。外形白毫肥大，叶片呈红白黄褐绿五色相间。",
+      "history": "相传英国维多利亚女王品饮后赞叹不已，因其外形优美而赐名\"Oriental Beauty\"（东方美人）。是国际上知名度极高的台湾茶。",
+      "brewing": {
+        "temperature": "85-90°C",
+        "amount": "5克",
+        "time": "第一泡 45-60秒",
+        "water": "纯净水",
+        "method": "白瓷盖碗或玻璃壶冲泡。水温不宜过高以免失去蜜香。不需洗茶，第一泡即可品饮。"
+      },
+      "taste": "天然蜜香果香，甘甜醇厚，汤色琥珀橙红",
+      "benefits": [
+        "抗氧化",
+        "助消化",
+        "提神醒脑",
+        "美容养颜"
+      ],
+      "season": "夏茶（芒种至大暑间）品质最佳",
+      "storage": "密封、避光、常温保存",
+      "isHot": false,
+      "tags": [
+        "台湾名茶",
+        "小绿叶蝉",
+        "蜜香"
+      ]
+    },
+    {
+      "id": "zhengshan_xiaozhong",
+      "name": "正山小种",
+      "category": "black",
+      "categoryName": "红茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/zhengshanxiaozhong.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/zhengshanxiaozhong.jpg",
+      "origin": "福建省南平市武夷山桐木关",
+      "brief": "世界红茶鼻祖，松烟香桂圆味",
+      "description": "正山小种是世界上最早的红茶，亦称\"红茶鼻祖\"。产于福建省武夷山市桐木关一带。\"正山\"指的是桐木及与桐木周边相同海拔、同等地域范围内的茶园出产的茶叶。",
+      "history": "正山小种红茶诞生于明末清初（约16世纪末17世纪初），是世界红茶的始祖。英国人最早从武夷山采购茶叶，催生了英国下午茶文化。",
+      "brewing": {
+        "temperature": "90-95°C",
+        "amount": "5克",
+        "time": "第一泡 3-5秒快速出汤",
+        "water": "纯净水",
+        "method": "盖碗或紫砂壶冲泡。水温不宜太高以免失去甜香。洗茶一遍后，前几泡快出汤。可冲泡10次以上。"
+      },
+      "taste": "松烟香、桂圆味、蜜糖香，滋味醇厚甘甜",
+      "benefits": [
+        "暖胃护胃",
+        "利尿消肿",
+        "提神消疲",
+        "消炎杀菌"
+      ],
+      "season": "春茶品质最优",
+      "storage": "密封、避光、常温保存",
+      "isHot": true,
+      "tags": [
+        "红茶鼻祖",
+        "世界遗产",
+        "桐木关"
+      ]
+    },
+    {
+      "id": "qimen_hongcha",
+      "name": "祁门红茶",
+      "category": "black",
+      "categoryName": "红茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/qimenhongcha.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/qimenhongcha.jpg",
+      "origin": "安徽省黄山市祁门县",
+      "brief": "世界三大高香红茶之一，\"祁门香\"闻名于世",
+      "description": "祁门红茶简称\"祁红\"，是中国十大名茶之一，世界三大高香红茶之一。以\"祁门香\"闻名于世，被誉为\"群芳最\"。其香气清香持久，似花、似蜜、似果，国际茶市上称之为\"祁门香\"。",
+      "history": "祁门红茶由安徽省祁门人于光绪年间（1875年）创制。此后迅速风靡欧洲，成为英国女王和王室的至爱饮品。",
+      "brewing": {
+        "temperature": "90°C",
+        "amount": "3-5克",
+        "time": "第一泡 2-3分钟",
+        "water": "纯净水",
+        "method": "白瓷盖碗或玻璃杯冲泡。注水后轻轻旋转杯身，使茶叶充分舒展。"
+      },
+      "taste": "香气似花似蜜似果（祁门香），滋味醇厚鲜爽",
+      "benefits": [
+        "提神消疲",
+        "暖胃",
+        "利尿",
+        "消炎杀菌"
+      ],
+      "season": "春茶为主",
+      "storage": "密封、避光、干燥保存",
+      "isHot": true,
+      "tags": [
+        "十大名茶",
+        "世界三大高香",
+        "祁门香"
+      ]
+    },
+    {
+      "id": "dianhong",
+      "name": "滇红",
+      "category": "black",
+      "categoryName": "红茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/dianhong.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/dianhong.jpg",
+      "origin": "云南省临沧市凤庆县",
+      "brief": "以大叶种茶为原料，汤色红艳金圈显",
+      "description": "滇红是云南红茶的统称，以云南大叶种茶树鲜叶为原料。成茶外形肥硕紧实，金毫特显，汤色红艳亮丽，香气鲜郁高长，滋味浓厚鲜爽，是中国红茶的代表之一。",
+      "history": "滇红创制于1939年，由冯绍裘先生在凤庆（原顺宁）试制成功。抗战期间为国家出口创汇做出重要贡献。",
+      "brewing": {
+        "temperature": "85-90°C",
+        "amount": "3-5克",
+        "time": "第一泡 3-5分钟",
+        "water": "纯净水",
+        "method": "盖碗或紫砂壶冲泡。水温不宜过高，以保持甜润口感。"
+      },
+      "taste": "甜醇浓厚，金毫花蜜香，回甘绵长",
+      "benefits": [
+        "暖胃养胃",
+        "利尿",
+        "消炎杀菌",
+        "提神益思"
+      ],
+      "season": "春茶品质最佳",
+      "storage": "密封、避光、干燥保存",
+      "isHot": true,
+      "tags": [
+        "云南名茶",
+        "大叶种",
+        "金毫"
+      ]
+    },
+    {
+      "id": "jinjunmei",
+      "name": "金骏眉",
+      "category": "black",
+      "categoryName": "红茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/jinjunmei.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/jinjunmei.jpg",
+      "origin": "福建省南平市武夷山桐木关",
+      "brief": "红茶新贵，全芽头制作，花果蜜香",
+      "description": "金骏眉是正山小种的分支，2005年由正山堂研发。采用武夷山桐木关海拔1200-1800米的高山茶树芽头为原料，约6-8万颗芽头才能制成一斤金骏眉。",
+      "history": "2005年由正山堂茶业江元勋团队在传统正山小种工艺的基础上创新研发而成，是中国最年轻的名茶之一。",
+      "brewing": {
+        "temperature": "85-90°C",
+        "amount": "3-5克",
+        "time": "第一泡 3-5秒",
+        "water": "纯净水或山泉水",
+        "method": "盖碗冲泡为佳。水温不宜过高，快速出汤。第一泡3-5秒，逐渐增加。可冲泡10次以上。"
+      },
+      "taste": "花果蜜香，甜润柔滑，汤色金黄透亮",
+      "benefits": [
+        "暖胃",
+        "利尿",
+        "抗氧化",
+        "提神"
+      ],
+      "season": "清明前后采摘",
+      "storage": "密封、避光保存",
+      "isHot": true,
+      "tags": [
+        "红茶新贵",
+        "全芽头",
+        "高端"
+      ]
+    },
+    {
+      "id": "yingde_hongcha",
+      "name": "英德红茶",
+      "category": "black",
+      "categoryName": "红茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/yingdehongcha.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/yingdehongcha.jpg",
+      "origin": "广东省清远市英德市",
+      "brief": "广东名茶，与祁红、滇红齐名的中国三大红茶",
+      "description": "英德红茶产于广东省英德市，是中国著名的出口红茶之一。以英红九号品种最为知名，外形匀称优美，色泽乌黑红润，汤色红亮，香气浓郁，是广东省代表性名茶。曾在国际茶叶市场上与斯里兰卡高地红茶媲美。",
+      "history": "英德产茶历史悠久，但英德红茶的创制始于1959年。此后迅速在国际市场崭露头角，被英国女王选为王室用茶。",
+      "brewing": {
+        "temperature": "90-95°C",
+        "amount": "5克",
+        "time": "第一泡 3-5秒",
+        "water": "纯净水",
+        "method": "盖碗或紫砂壶冲泡。水温适中，前几泡快速出汤。可冲泡8-10次。"
+      },
+      "taste": "浓醇鲜爽，花蜜香浓郁，汤色红艳明亮",
+      "benefits": [
+        "暖胃养胃",
+        "利尿",
+        "提神醒脑",
+        "抗氧化"
+      ],
+      "season": "春茶品质最佳",
+      "storage": "密封、避光、干燥保存",
+      "isHot": false,
+      "tags": [
+        "广东名茶",
+        "英红九号",
+        "出口红茶"
+      ]
+    },
+    {
+      "id": "tanyang_gongfu",
+      "name": "坦洋工夫",
+      "category": "black",
+      "categoryName": "红茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/tanyanggongfu.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/tanyanggongfu.jpg",
+      "origin": "福建省宁德市福安市坦洋村",
+      "brief": "闽红三大工夫之首，百年外销名茶",
+      "description": "坦洋工夫是福建三大工夫红茶之首（与白琳工夫、政和工夫并称），产于福建福安市坦洋村。外形细长匀整，带白毫，色泽乌黑有光，内质香味清鲜甜和，汤色鲜红呈金黄色。曾远销荷兰、英国、法国等20多个国家。",
+      "history": "坦洋工夫创制于清咸丰元年（1851年），至今已有170多年历史。1915年获巴拿马万国博览会金奖。",
+      "brewing": {
+        "temperature": "90°C",
+        "amount": "5克",
+        "time": "第一泡 2-3分钟",
+        "water": "纯净水",
+        "method": "白瓷盖碗或玻璃杯冲泡。注水后静置片刻让茶叶充分舒展。"
+      },
+      "taste": "清鲜甜和，桂花香隐现，汤色金黄红亮",
+      "benefits": [
+        "暖胃",
+        "提神",
+        "消炎杀菌",
+        "利尿"
+      ],
+      "season": "春茶为主",
+      "storage": "密封、避光、干燥保存",
+      "isHot": false,
+      "tags": [
+        "闽红之首",
+        "金奖",
+        "百年名茶"
+      ]
+    },
+    {
+      "id": "puer_sheng",
+      "name": "普洱生茶",
+      "category": "dark",
+      "categoryName": "黑茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/puersheng.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/puersheng.jpg",
+      "origin": "云南省西双版纳、普洱、临沧等地",
+      "brief": "越陈越香的\"能喝的古董\"",
+      "description": "普洱生茶以云南大叶种晒青毛茶为原料，经过蒸压成型后在自然环境中缓慢发酵。新生茶口感刺激性强，有苦涩感；经过多年陈化后，苦涩逐渐转化，口感变得醇厚饱满，汤色也从黄绿转为红浓。",
+      "history": "普洱茶历史悠久，可追溯到东汉时期。唐代已经大量销往西藏，通过茶马古道运输。清代为贡茶。",
+      "brewing": {
+        "temperature": "95-100°C",
+        "amount": "7-8克",
+        "time": "洗茶两遍，第一泡 10-15秒",
+        "water": "矿泉水或山泉水",
+        "method": "紫砂壶或盖碗冲泡。新茶可适当降低水温。老茶（10年以上）可煮饮。注意醒茶环节很重要。"
+      },
+      "taste": "新茶苦涩回甘强烈，陈茶醇厚饱满，层次丰富",
+      "benefits": [
+        "减肥降脂",
+        "降血压",
+        "抗动脉硬化",
+        "助消化",
+        "醒酒"
+      ],
+      "season": "春茶（3-5月）品质最优",
+      "storage": "通风、干燥、无异味的环境，避光保存",
+      "isHot": true,
+      "tags": [
+        "越陈越香",
+        "古树茶",
+        "茶马古道"
+      ]
+    },
+    {
+      "id": "puer_shu",
+      "name": "普洱熟茶",
+      "category": "dark",
+      "categoryName": "黑茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/puershu.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/puershu.jpg",
+      "origin": "云南省",
+      "brief": "人工渥堆发酵，汤色红浓明亮",
+      "description": "普洱熟茶是以云南大叶种晒青毛茶为原料，经过人工渥堆发酵工艺加工而成。1973年昆明茶厂开始试制熟茶，成为普洱茶发展的重要里程碑。熟茶口感温和醇厚，适合日常饮用。",
+      "history": "1973年昆明茶厂首创渥堆发酵工艺，标志着普洱熟茶的诞生。这一工艺将普洱茶自然陈化数十年的过程缩短至45天左右。",
+      "brewing": {
+        "temperature": "100°C",
+        "amount": "7-8克",
+        "time": "洗茶两遍，第一泡 10秒",
+        "water": "沸水",
+        "method": "紫砂壶冲泡最佳。先用沸水温壶，洗茶两遍后正式冲泡。也可以煮饮，风味更佳。"
+      },
+      "taste": "醇厚顺滑，陈香浓郁，甜润绵滑，无苦涩",
+      "benefits": [
+        "暖胃养胃",
+        "降脂减肥",
+        "降三高",
+        "助消化"
+      ],
+      "season": "四季均可饮用",
+      "storage": "通风干燥、无异味处保存",
+      "isHot": true,
+      "tags": [
+        "渥堆发酵",
+        "暖胃",
+        "日常饮品"
+      ]
+    },
+    {
+      "id": "anhua_heicha",
+      "name": "安化黑茶",
+      "category": "dark",
+      "categoryName": "黑茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/anhuaheicha.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/anhuaheicha.jpg",
+      "origin": "湖南省益阳市安化县",
+      "brief": "千两茶、茯砖茶的故乡，\"金花\"独特",
+      "description": "安化黑茶是六大基本茶类之一，属于后发酵茶。安化黑茶条索卷折成泥鳅状，色泽油黑，汤色橙黄，叶底黄褐。其中茯砖茶内产生的一种独特的金黄色颗粒——\"金花\"（冠突散囊菌），是有益健康的益生菌。",
+      "history": "安化黑茶明代即为贡品和官茶。千两茶制作技艺被列为国家级非物质文化遗产。",
+      "brewing": {
+        "temperature": "100°C",
+        "amount": "5-8克",
+        "time": "第一泡 1-2分钟",
+        "water": "沸水",
+        "method": "紫砂壶或陶壶冲泡。砖茶需先撬散，洗茶1-2次。也可煮饮。"
+      },
+      "taste": "醇厚不涩，菌花香独特，回甘绵长",
+      "benefits": [
+        "助消化",
+        "降脂减肥",
+        "调节肠胃",
+        "降血糖"
+      ],
+      "season": "四季均可饮用",
+      "storage": "通风、干燥、无异味处保存",
+      "isHot": false,
+      "tags": [
+        "金花",
+        "千两茶",
+        "茯砖茶"
+      ]
+    },
+    {
+      "id": "liubao_cha",
+      "name": "六堡茶",
+      "category": "dark",
+      "categoryName": "黑茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/liubaocha.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/liubaocha.jpg",
+      "origin": "广西壮族自治区梧州市苍梧县六堡镇",
+      "brief": "侨销茶之王，槟榔香独特，越陈越佳",
+      "description": "六堡茶是广西梧州特产，属于黑茶类后发酵茶。因产于苍梧县六堡镇而得名。六堡茶以\"红、浓、陈、醇\"四绝著称，最具特色的是其独特的槟榔香。六堡茶历史上主要通过茶船古道销往东南亚，是著名的\"侨销茶\"。",
+      "history": "六堡茶在清嘉庆年间（1796-1820年）已列为全国24种名茶之一。历史上通过西江水路远销南洋，在马来西亚华人中极受欢迎。2022年入选联合国人类非物质文化遗产代表作名录。",
+      "brewing": {
+        "temperature": "100°C",
+        "amount": "5-8克",
+        "time": "洗茶一遍，第一泡 15-30秒",
+        "water": "沸水",
+        "method": "紫砂壶或陶壶冲泡。先洗茶醒茶，前几泡快速出汤。陈年六堡可煮饮。"
+      },
+      "taste": "红浓陈醇，槟榔香独特，甘甜爽口",
+      "benefits": [
+        "祛湿养胃",
+        "助消化",
+        "降脂减肥",
+        "抗氧化"
+      ],
+      "season": "四季均可饮用",
+      "storage": "通风干燥、无异味处存放，越陈越佳",
+      "isHot": false,
+      "tags": [
+        "槟榔香",
+        "侨销茶",
+        "非遗"
+      ]
+    },
+    {
+      "id": "molihua_cha",
+      "name": "茉莉花茶",
+      "category": "flower",
+      "categoryName": "花茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/molihuacha.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/molihuacha.jpg",
+      "origin": "福建省福州市、广西横县",
+      "brief": "窨制花茶之王，\"人间第一香\"",
+      "description": "茉莉花茶是将茶叶和茉莉鲜花进行拼和、窨制，使茶叶吸收花香而成。茉莉花茶是花茶中的名品，被誉为\"人间第一香\"。好的茉莉花茶需要经过多次窨制（反复用新鲜茉莉花薰），使香气层层递进。",
+      "history": "茉莉花茶的窨制工艺起源于南宋，已有近千年历史。清朝时期，福州茉莉花茶成为贡茶。",
+      "brewing": {
+        "temperature": "85-90°C",
+        "amount": "3-5克",
+        "time": "第一泡 2-3分钟",
+        "water": "纯净水",
+        "method": "玻璃杯或盖碗冲泡。水温适中，过高会散失花香。"
+      },
+      "taste": "鲜灵持久的茉莉花香，茶味醇厚鲜爽",
+      "benefits": [
+        "理气开郁",
+        "安神助眠",
+        "清热解毒",
+        "美容护肤"
+      ],
+      "season": "夏秋季窨制的品质最佳",
+      "storage": "密封、避光保存，注意防潮",
+      "isHot": true,
+      "tags": [
+        "人间第一香",
+        "窨制",
+        "花茶之王"
+      ]
+    },
+    {
+      "id": "guihua_cha",
+      "name": "桂花茶",
+      "category": "flower",
+      "categoryName": "花茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/guihuacha.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/guihuacha.jpg",
+      "origin": "广西桂林、湖北咸宁、四川成都等地",
+      "brief": "金桂飘香，温补养生",
+      "description": "桂花茶是由精制茶叶与鲜桂花窨制而成的花茶，香味馥郁持久。桂花性温味辛，有温补阳气、美白肌肤、排解体内毒素的功效。",
+      "history": "桂花茶的制作历史悠久，在中国南方有着广泛的饮用传统。",
+      "brewing": {
+        "temperature": "85-90°C",
+        "amount": "3-4克",
+        "time": "第一泡 3分钟",
+        "water": "纯净水",
+        "method": "玻璃杯或瓷杯冲泡，可搭配蜂蜜饮用。"
+      },
+      "taste": "桂花香浓郁幽雅，茶汤甘甜回润",
+      "benefits": [
+        "温补阳气",
+        "美白肌肤",
+        "理气化痰",
+        "暖胃散寒"
+      ],
+      "season": "秋季桂花盛开时窨制",
+      "storage": "密封、避光、防潮保存",
+      "isHot": false,
+      "tags": [
+        "温补",
+        "美容",
+        "秋季"
+      ]
+    },
+    {
+      "id": "meigui_huacha",
+      "name": "玫瑰花茶",
+      "category": "flower",
+      "categoryName": "花茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/meiguihuacha.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/meiguihuacha.jpg",
+      "origin": "山东省平阴县、甘肃省永登县、云南等地",
+      "brief": "花中之王入茶，理气养颜的女性养生茶",
+      "description": "玫瑰花茶是用鲜玫瑰花与茶叶窨制而成，也可单独用干玫瑰花蕾冲泡。玫瑰花含有丰富的维生素和单宁酸，中医认为玫瑰花性温、味甘微苦，有理气解郁、活血散瘀、调经止痛的功效，特别适合女性饮用。",
+      "history": "玫瑰入茶的历史悠久。明代《食物本草》已有记载：\"玫瑰花食之芳香甘美，令人神爽。\"中国以山东平阴玫瑰和甘肃苦水玫瑰最为知名。",
+      "brewing": {
+        "temperature": "80-85°C",
+        "amount": "5-6朵/杯",
+        "time": "第一泡 3-5分钟",
+        "water": "纯净水",
+        "method": "玻璃杯或瓷杯冲泡。可加入冰糖或蜂蜜调味。也可搭配红枣、枸杞等食材。"
+      },
+      "taste": "花香馥郁甘甜，口感柔和温润",
+      "benefits": [
+        "理气解郁",
+        "活血散瘀",
+        "美容养颜",
+        "调经止痛"
+      ],
+      "season": "四季均可饮用",
+      "storage": "密封、避光、防潮保存",
+      "isHot": true,
+      "tags": [
+        "美容养颜",
+        "理气解郁",
+        "女性养生"
+      ]
+    },
+    {
+      "id": "xiaoqinggan",
+      "name": "小青柑",
+      "category": "reprocessed",
+      "categoryName": "再加工茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/xiaoqinggan.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/xiaoqinggan.jpg",
+      "origin": "广东省江门市新会区",
+      "brief": "新会柑皮+云南普洱，柑果清香与茶香完美融合",
+      "description": "小青柑是以新会小青柑（未成熟的新会柑）为原料，去肉填入云南普洱熟茶，经过特殊工艺加工而成。兼具新会陈皮和普洱茶的双重功效。",
+      "history": "小青柑是近年兴起的新型茶品，但新会陈皮与普洱茶的结合由来已久，最早可追溯到清代。",
+      "brewing": {
+        "temperature": "100°C",
+        "amount": "一颗（约10-15克）",
+        "time": "第一泡 10-15秒",
+        "water": "沸水",
+        "method": "整颗投入盖碗或壶中，洗茶一遍后冲泡。也可捏碎后冲泡，出味更快。可冲泡10次以上。"
+      },
+      "taste": "柑果清香与茶的醇厚融合，甘甜润滑",
+      "benefits": [
+        "理气消食",
+        "润肺化痰",
+        "暖胃护胃",
+        "降脂减肥"
+      ],
+      "season": "四季均可饮用",
+      "storage": "密封、通风保存",
+      "isHot": true,
+      "tags": [
+        "新会柑皮",
+        "普洱",
+        "网红茶"
+      ]
+    },
+    {
+      "id": "babao_cha",
+      "name": "八宝茶",
+      "category": "reprocessed",
+      "categoryName": "再加工茶",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/babaocha.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/babaocha.jpg",
+      "origin": "宁夏、甘肃等西北地区",
+      "brief": "融合多种食材的养生茶饮",
+      "description": "八宝茶是西北地区的传统茶饮，一般由茶叶、枸杞、红枣、桂圆、芝麻、葡萄干、核桃仁、冰糖八种材料组成（各地配方有所不同）。用盖碗（三泡台）冲泡品饮。",
+      "history": "八宝茶源于唐代，是西北回族同胞的传统饮品。有着\"宁可一日无粮，不可一日无茶\"的说法。",
+      "brewing": {
+        "temperature": "100°C",
+        "amount": "一份（约15-20克）",
+        "time": "5分钟以上",
+        "water": "沸水",
+        "method": "使用三泡台（盖碗），将所有材料放入碗中，注入沸水，加盖闷泡5分钟以上。不断续水饮用。"
+      },
+      "taste": "甘甜醇厚，多种食材香味交融",
+      "benefits": [
+        "滋补养生",
+        "补气养血",
+        "健脾益肾",
+        "明目润肺"
+      ],
+      "season": "四季均可，秋冬尤佳",
+      "storage": "密封、干燥保存",
+      "isHot": false,
+      "tags": [
+        "西北特色",
+        "养生",
+        "三泡台"
+      ]
+    }
+  ],
+  "brewingTips": [
+    {
+      "title": "水温选择",
+      "content": "嫩芽类（绿茶、黄茶）75-85°C；半发酵（乌龙茶）90-100°C；全发酵（红茶）85-95°C；后发酵（黑茶）95-100°C",
+      "icon": "🌡️"
+    },
+    {
+      "title": "投茶量",
+      "content": "一般比例为1:50（茶:水），即3-5克茶配150-250ml水。功夫泡法比例约1:20",
+      "icon": "⚖️"
+    },
+    {
+      "title": "冲泡器具",
+      "content": "绿茶宜玻璃杯，乌龙茶宜紫砂壶或盖碗，红茶宜白瓷，普洱宜紫砂",
+      "icon": "🫖"
+    },
+    {
+      "title": "泡茶用水",
+      "content": "泉水为上，纯净水次之。自来水需静置去氯。水质对茶汤影响极大",
+      "icon": "💧"
+    },
+    {
+      "title": "存茶方法",
+      "content": "绿茶需冷藏，乌龙和红茶密封常温，普洱需通风干燥。忌潮湿、异味、阳光直射",
+      "icon": "📦"
+    }
+  ],
+  "teaCulture": [
+    {
+      "title": "茶的起源",
+      "content": "中国是茶的故乡。传说神农尝百草时发现了茶。目前考古发现最早的茶叶实物出土于汉代。"
+    },
+    {
+      "title": "陆羽与《茶经》",
+      "content": "唐代陆羽著《茶经》是世界上第一部茶学专著，被尊为\"茶圣\"。"
+    },
+    {
+      "title": "茶马古道",
+      "content": "中国历史上以茶叶贸易为主的古代商路，连接云南、四川与西藏。"
+    },
+    {
+      "title": "功夫茶",
+      "content": "起源于潮汕地区的一种精致的泡茶方式，讲究\"高冲低斟\"，是中国茶道的代表。"
+    }
+  ]
+}
