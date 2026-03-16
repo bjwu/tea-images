@@ -1018,7 +1018,7 @@
     },
     {
       "id": "tieguanyin",
-      "name": "铁观音",
+      "name": "安溪铁观音",
       "category": "oolong",
       "categoryName": "青茶（乌龙茶）",
       "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/oolong/tieguanyin.jpg",
@@ -1217,6 +1217,142 @@
         "台湾名茶",
         "小绿叶蝉",
         "蜜香"
+      ]
+    },
+    {
+      "id": "wuyi_yancha",
+      "name": "武夷岩茶",
+      "category": "oolong",
+      "categoryName": "青茶（乌龙茶）",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/oolong/wuyiyancha.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/wuyiyancha.jpg",
+      "origin": "福建省南平市武夷山",
+      "brief": "岩骨花香，\"臻山川精英秀气所钟\"的岩韵名茶",
+      "description": "武夷岩茶是产于福建武夷山的乌龙茶，以独特的\"岩骨花香\"品质著称。武夷山丹霞地貌赋予茶叶独特的岩韵，\"岩岩有茶，非岩不茶\"。岩茶品种繁多，除大红袍、肉桂、水仙三大当家品种外，还有数百个名丛奇种。制作工艺精细，历经萎凋、做青、炒青、揉捻、烘焙等十余道工序。",
+      "history": "武夷岩茶始于唐代，兴于宋元，盛于明清。北宋范仲淹《和章岷从事斗茶歌》中有\"溪边奇茗冠天下，武夷仙人从古栽\"的诗句。2006年武夷岩茶（大红袍）制作技艺被列入国家级非物质文化遗产。",
+      "brewing": {
+        "temperature": "95-100°C",
+        "amount": "8克",
+        "time": "第一泡 15-20秒",
+        "water": "矿泉水",
+        "method": "盖碗或紫砂壶冲泡。沸水高冲，快速洗茶一遍。前几泡快速出汤（10-15秒），后逐渐延长。讲究\"高冲低斟\"。可连泡8-10次。"
+      },
+      "taste": "岩骨花香，滋味醇厚甘活，岩韵显著，回甘悠长",
+      "benefits": [
+        "提神益思",
+        "消食去腻",
+        "利尿消肿",
+        "抗氧化"
+      ],
+      "season": "春茶品质最优",
+      "storage": "密封常温保存，避免异味，适当陈放品质更佳",
+      "isHot": true,
+      "tags": [
+        "岩骨花香",
+        "非遗工艺",
+        "武夷山"
+      ]
+    },
+    {
+      "id": "yongchun_foshou",
+      "name": "永春佛手",
+      "category": "oolong",
+      "categoryName": "青茶（乌龙茶）",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/oolong/yongchunfoshou.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/yongchunfoshou.jpg",
+      "origin": "福建省泉州市永春县",
+      "brief": "香橼品种制成，独具佛手柑香气",
+      "description": "永春佛手又名\"香橼种\"，因叶片形似佛手柑而得名，是福建乌龙茶中风味独特的品种。茶叶外形条索肥壮卷曲，色泽砂绿乌润。冲泡后香气馥郁幽长，带有独特的佛手柑香和花果香。滋味醇厚回甘，汤色金黄明亮。",
+      "history": "永春佛手茶相传为清康熙年间永春狮峰岩寺僧人所创制，距今已有300多年历史。以永春县玉斗、达埔、蓬壶等乡镇所产品质最佳。",
+      "brewing": {
+        "temperature": "95°C",
+        "amount": "7克",
+        "time": "第一泡 20-30秒",
+        "water": "矿泉水或纯净水",
+        "method": "盖碗冲泡。温杯后投茶，注水洗茶一遍。正泡20-30秒出汤，后逐渐延长。可冲泡6-7次。"
+      },
+      "taste": "佛手柑香独特，滋味醇厚甘润，汤色金黄",
+      "benefits": [
+        "健脾消食",
+        "理气化痰",
+        "降血脂",
+        "抗氧化"
+      ],
+      "season": "春秋两季品质较佳",
+      "storage": "密封、避光、常温保存",
+      "isHot": false,
+      "tags": [
+        "佛手柑香",
+        "永春名茶",
+        "香橼种"
+      ]
+    },
+    {
+      "id": "baiya_qilan",
+      "name": "白芽奇兰",
+      "category": "oolong",
+      "categoryName": "青茶（乌龙茶）",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/oolong/baiyaqilan.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/baiyaqilan.jpg",
+      "origin": "福建省漳州市平和县",
+      "brief": "芽梢白毫显露，兰花香气突出的闽南乌龙",
+      "description": "白芽奇兰是福建省平和县特有的乌龙茶品种，因芽梢呈白绿色、带有奇特兰花香气而得名。外形紧结匀整，色泽翠绿油润。内质香气清高爽悦，带有独特的兰花香和奶香，滋味醇爽细腻，回甘持久。是近年来崛起的优质乌龙茶新秀。",
+      "history": "白芽奇兰于20世纪60年代在平和县崎岭乡彭溪村发现并培育，1990年代通过省级茶树良种审定。虽然历史不长，但凭借独特品质迅速获得市场认可。",
+      "brewing": {
+        "temperature": "93-95°C",
+        "amount": "7克",
+        "time": "第一泡 20-30秒",
+        "water": "纯净水",
+        "method": "盖碗冲泡为佳。水温不宜过高以保留兰香。洗茶一遍后，每泡出汤时间逐渐增加。可冲泡5-6次。"
+      },
+      "taste": "兰花香清幽，带奶香，滋味醇爽细腻，回甘持久",
+      "benefits": [
+        "提神醒脑",
+        "消食去腻",
+        "美容养颜",
+        "降血压"
+      ],
+      "season": "春茶和秋茶品质较佳",
+      "storage": "密封、避光、常温保存",
+      "isHot": false,
+      "tags": [
+        "兰花香",
+        "平和名茶",
+        "新秀品种"
+      ]
+    },
+    {
+      "id": "lingtou_dancong",
+      "name": "岭头单丛",
+      "category": "oolong",
+      "categoryName": "青茶（乌龙茶）",
+      "icon": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/icon/oolong/lingtoudancong.jpg",
+      "image": "https://cdn.jsdelivr.net/gh/bjwu/tea-images/tea/page/lingtoudancong.jpg",
+      "origin": "广东省潮州市饶平县",
+      "brief": "又名白叶单丛，蜜香浓郁的广东名茶",
+      "description": "岭头单丛又名\"白叶单丛\"，产于广东省饶平县坪溪镇岭头村一带，是广东乌龙茶中的优质品种。外形条索紧卷，色泽黄褐油润。最大特点是蜜香浓郁持久，带有花蜜和熟果的甜香。滋味浓醇甘爽，回甘力强，有\"北有武夷，南有岭头\"之誉。",
+      "history": "岭头单丛于20世纪50年代从凤凰水仙群体品种中单株选育而成。1981年在全国茶树品种会议上被评为优良茶树品种。1996年获国家良种审定。",
+      "brewing": {
+        "temperature": "95°C",
+        "amount": "7-8克",
+        "time": "第一泡 10-15秒",
+        "water": "矿泉水或纯净水",
+        "method": "盖碗功夫泡法。快速洗茶一遍，前几泡快速出汤（10秒内），后逐渐延长。注意出汤要干净利落。"
+      },
+      "taste": "蜜香浓郁持久，滋味浓醇甘爽，回甘力强",
+      "benefits": [
+        "提神醒脑",
+        "消食化积",
+        "降血脂",
+        "美容抗衰"
+      ],
+      "season": "春茶和秋茶品质较佳",
+      "storage": "密封、避光、常温保存",
+      "isHot": false,
+      "tags": [
+        "白叶单丛",
+        "蜜香",
+        "饶平名茶"
       ]
     },
     {
